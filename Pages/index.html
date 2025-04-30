@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CodeKriti 3.0</title>
+        <link rel="website icon" type="png" href="./images/logo.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="./src/output.css">
+    </head>
+    <body>
+        <div>
+            <!-- Nav Bar -->
+            <header class="fixed pt-5 pb-5 pl-9 pr-9 bg-transparent shadow-xl top-0 left-0 w-full z-100">
+                <div class="flex items-center justify-between">
+                    <div class="flex gap-3 pl-4 items-center">
+                        <a href="index.html" class="flex gap-3 pl-4 items-center">
+                            <img src="./images/logo.png" alt="logo" class="h-8 w-auto">
+                            <!-- <i class="fa-solid fa-code text-4xl font-bold" style="color: #F2EFE7;"></i> -->
+                            <span style="font-family: monospace; color: #FDFAF6;" class="text-3xl font-bold">CodeKriti 3.0</span>
+                        </a>
+                    </div>
+                    <nav class="hidden md:flex gap-6 pr-9">
+                        <a href="#About" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="text-[#FDFAF6] text-xl font-semibold hover:text-teal-600 z-50">About</a>
+                        <a href="competition.html" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="text-[#FDFAF6] text-xl font-semibold hover:text-teal-600 z-50">Competition</a>
+                        <a href="timeline.html" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="text-[#FDFAF6] text-xl font-semibold hover:text-teal-600 z-50">Timeline</a>
+                    </nav>
+                </div>
+            </header>
+        </div>
+            <!-- Hero Section -->
+        <div class="relative w-full h-screen overflow-hidden">
+            <video autoplay muted loop class="absolute top-0 left-0 w-[100%] h-[100%] object-cover -z-1 pointer-events-none">
+                <source src="./images/bg_vdo1.mp4" type="video/mp4">
+            </video>
+            <div class="relative -z-1 text-center pt-[12%]">
+                <h1 style="font-size: 72px; color: #FDFAF6; font-family: monospace;" class="font-bold">BEYOND THE</h1>
+                <h1 style="font-size: 78px; color: rgb(110, 231, 110); font-family: monospace;" class="font-bold">DIGITAL WORLD</h1>
+                <span style="color: #FDFAF6; font-size: large;">Do not go gentle into that good night. Rage, rage against the dying of the light.</span> <br>
+                <span style="color: #FDFAF6; font-size: large;"> Embark on a journey through space, time, and code.</span>
+            </div>
+            <div class="flex items-center justify-center py-8">
+                <a href="competition.html">
+                    <button class="text-white font-bold border-2 border-green-500 p-3.5 px-7 rounded-4xl hover:bg-emerald-400">EXPLORE NOW</button>
+                </a>
+            </div>       
+        </div>
+        
+        <!-- About Section -->
+        <section id="About" class="bg-gradient-to-b from-black to-teal-950 text-white py-16 px-4 sm:px-6 lg:px-8 h-screen" id="about">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">TRANSCEND THE ORDINARY</h2>
+                <p class="text-lg sm:text-xl text-gray-300 mb-8">
+                    Like the intrepid explorers of Interstellar who ventured beyond known space, CodeKriti 3.0 invites you to push the boundaries of technology and innovation.
+                </p>
+                <p class="text-md text-gray-400">
+                    Our two-day tech extravaganza features cutting-edge competitions, from algorithmic challenges to design sprints, culminating in an epic hackathon that will test your limits and reward your creativity.
+                </p>
+            
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-12">
+                    <div class="bg-teal-800 rounded-lg py-4 px-2 border-1 border-emteal-500 hover:scale-105 transition-transform">
+                        <p class="text-2xl font-bold text-teal-300">4+</p>
+                        <p class="text-md text-teal-400">Events</p>
+                    </div>
+                    <div class="bg-teal-800 rounded-lg py-4 px-2 border-1 border-emteal-500 hover:scale-105 transition-transform">
+                        <p class="text-2xl font-bold text-teal-300">2</p>
+                        <p class="text-md text-teal-400">Days</p>
+                    </div>
+                    <div class="bg-teal-800 rounded-lg py-4 px-2 border-1 border-emteal-500 hover:scale-105 transition-transform">
+                        <p class="text-2xl font-bold text-teal-300">100+</p>
+                        <p class="text-md text-teal-400">Participants</p>
+                    </div>
+                    <div class="bg-teal-800 rounded-lg py-4 px-2 border-1 border-emteal-500 hover:scale-105 transition-transform">
+                        <p class="text-2xl font-bold text-teal-300">₹10K+</p>
+                        <p class="text-md text-teal-400">Prizes</p>
+                    </div>
+                </div>
+            
+                <div class="mt-12 bg-teal-800 p-6 rounded-lg text-left border-1 border-emteal-500 hover:scale-105 transition-transform">
+                    <h3 class="text-xl font-bold mb-2 text-white">What Awaits You</h3>
+                    <ul class="list-inside text-gray-200 space-y-2 list-none">
+                        <li class="font-semibold"><i class="fa-solid fa-rocket pr-3 text-teal-300"></i>Develop innovative solutions to real-world challenges</li>
+                        <li class="font-semibold"><i class="fa-solid fa-users pr-3 text-teal-300"></i>Connect with fellow innovators and industry experts</li>
+                        <li class="font-semibold"><i class="fa-solid fa-lightbulb pr-3 text-teal-300"></i>Transform your ideas into working prototypes</li>
+                        <li class="font-semibold"><i class="fa-solid fa-trophy pr-3 text-teal-300"></i>Compete for exciting prizes and recognition</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="h-14 bg-black text-gray-400 flex items-center justify-center">
+            © 2025 CDD Club PMEC. All rights reserved.
+        </section>
+    </body>
+</html>
